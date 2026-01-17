@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KinglessNews | Throne and Liberty</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #0f1115;
+      color: #eaeaea;
+    }
+    header {
+      background: linear-gradient(90deg, #6a0dad, #3b1c5a);
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      letter-spacing: 2px;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-size: 1em;
+      opacity: 0.9;
+    }
+    nav {
+      background-color: #181b22;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #cfa9ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #ffffff;
+    }
+    main {
+      max-width: 1100px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    .news {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background-color: #1c1f27;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+    }
+    .card h2 {
+      margin-top: 0;
+      color: #cfa9ff;
+    }
+    .card p {
+      font-size: 0.95em;
+      line-height: 1.5em;
+    }
+    .tag {
+      display: inline-block;
+      margin-top: 10px;
+      background-color: #6a0dad;
+      padding: 5px 10px;
+      border-radius: 20px;
+      font-size: 0.75em;
+    }
+    footer {
+      margin-top: 40px;
+      background-color: #181b22;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.85em;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>KinglessNews</h1>
+    <p>Onde o patch bate forte e a treta vem primeiro</p>
+  </header>
+
+  <nav>
+    <a href="#">Notícias</a>
+    <a href="#">Patch Notes</a>
+    <a href="#">Balanceamento</a>
+    <a href="#">Eventos</a>
+    <a href="#">Guildas & PvP</a>
+    <a href="#">Tretas 🔥</a>
+  </nav>
+
+  <main>
+    <section class="news">
+      <article class="card">
+        <h2>📰 Resumo da Semana</h2>
+        <p>Boss no horário certo, estratégia afiada e contribuição no topo. Algumas guildas comemoraram, outras ficaram com gosto de veneno até no café da manhã.</p>
+        <span class="tag">Semana</span>
+      </article>
+
+      <article class="card">
+        <h2>⚙️ Patch Notes sem Enrolação</h2>
+        <p>A manutenção trouxe nerfs em armas dominantes. Agora é semana oficial de testar build, descobrir bug e reclamar no chat.</p>
+        <span class="tag">Patch</span>
+      </article>
+
+      <article class="card">
+        <h2>⚔️ Balanceamento – Quem Chorou?</h2>
+        <p>Builds populares sofreram ajustes e a comunidade já começou a se adaptar (ou reclamar).</p>
+        <span class="tag">Balance</span>
+      </article>
+
+      <article class="card">
+        <h2>🔥 Tretas da Semana</h2>
+        <p>Rivalidade entre guildas, acusações de bug abuse e muita discussão no chat global.</p>
+        <span class="tag">Treta</span>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 KinglessNews — Comunidade Throne and Liberty</p>
+  </footer>
+</body>
+</html>
